@@ -5,11 +5,14 @@
       font-family: 'Pacifico', cursive;
     }
 
-    body {
-      background: radial-gradient(circle at top left, #e5f016, #ff9ffc, #d317ba);
-      min-height: 100vh;
-      overflow: hidden;
-    }
+      body {
+        background-image: url('./background.jpg'); 
+        background-size: cover;       
+        background-position: center;  
+        background-repeat: no-repeat; 
+        min-height: 100vh;
+        overflow: hidden;
+      }
 
     .container {
       position: relative;
